@@ -1,0 +1,42 @@
+version: "0.2"
+language: en
+dictionaries:
+  - bash
+enableFiletypes:
+  - dockercompose
+  - dotenv
+  - editorconfig
+  - ini
+  - makefile
+  - shellscript
+  - toml
+ignorePaths:
+  - .git/
+  - .gitattributes
+  - .gitignore
+  - .sops.yml
+  - cspell.yml
+  - devcontainer.json
+  - dist/
+  - Dockerfile
+  - secrets.yml
+words:
+  - buildcache
+  - buildkit
+  - buildx
+  - devcontainer
+  - dotfiles
+  - gitleaks
+  - gitlint
+  - gpgconf
+  - hadolint
+  - ifeq
+  - ifneq
+  - markdownlint
+  - shellcheck
+  - shfmt
+  - sigstore
+  - substr
+  - "twelvelabs"
+  - "dv-api"
+  - "twelvelabs"
