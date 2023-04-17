@@ -17,7 +17,7 @@ CMD ["/app/bin/run.sh"]
 #
 # A minimal image w/ just the app
 #######################################################
-FROM ghcr.io/gostamp/ubuntu-slim:0.4.0 AS slim
+FROM ghcr.io/gostamp/ubuntu-slim:0.5.0 AS slim
 
 COPY --from=full ${APP_DIR} ${APP_DIR}
 
