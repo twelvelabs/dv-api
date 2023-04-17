@@ -4,7 +4,7 @@
 #
 # All of the dev/test/build tools
 #######################################################
-FROM ghcr.io/gostamp/ubuntu-full:0.4.0 AS full
+FROM ghcr.io/gostamp/ubuntu-full:0.5.0 AS full
 
 # Copy app source
 COPY . ${APP_DIR}
